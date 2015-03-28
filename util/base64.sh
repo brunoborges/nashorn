@@ -1,10 +1,11 @@
+#!/usr/bin/jjs -J-Dnashorn.args="-scripting"
 /*
  * Author: Bruno Borges
  * Twitter: @brunoborges
  */
 if (arguments.length === 0 || arguments[0] === '-h') {
    print('Usage:');
-   print(' $> jjs base64.js -- text');
+   print(' $> ./base64.sh -- text');
    exit(1);
 }
 
