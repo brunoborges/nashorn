@@ -5,7 +5,7 @@
  */
 if (arguments.length === 0 || arguments[0] === '-h') {
    print('Usage:');
-   print(' $> ./nato.sh -- words');
+   print(' $> ./nato.js -- words');
    exit(1);
 }
 var Collectors=java.util.stream.Collectors;
